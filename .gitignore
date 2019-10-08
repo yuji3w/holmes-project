@@ -1,0 +1,5 @@
+graphs/
+*.pal
+*.fasta
+*.inv
+.ipynb_checkpoints/
