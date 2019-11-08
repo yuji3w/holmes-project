@@ -1,0 +1,23 @@
+{"state":
+ [{"n":0,
+   "id":["concat-l",["concat-l",["A","C","G","T"]]],
+   "trans":[{"to":0,"in":"A"},
+            {"to":0,"in":"C"},
+            {"to":0,"in":"G"},
+            {"to":0,"in":"T"},
+            {"to":1}]},
+  {"n":1,
+   "id":["concat-l",["concat-r",["A","C","T","G"]]],
+   "trans":[{"to":1,"in":"A","out":"A"},
+            {"to":1,"in":"C","out":"C"},
+            {"to":1,"in":"T","out":"T"},
+            {"to":1,"in":"G","out":"G"},
+            {"to":2}]},
+  {"n":2,
+   "id":["concat-r",["A","C","G","T"]],
+   "trans":[{"to":2,"in":"A"},
+            {"to":2,"in":"C"},
+            {"to":2,"in":"G"},
+            {"to":2,"in":"T"}]}
+ ]
+}
